@@ -1,98 +1,113 @@
 {
-  "appName": "Kayahan GmbH",
-  "firstName": "Ad",
-  "lastName": "Soyad",
-  "addVisitor": "Ziyaretçi ekle",
-  "phoneNumber": "Telefon numarası",
-  "temperature": "Sıcaklık",
-  "email": "Mail Adresi",
-  "password":"Şifre",
-  "enter_password":"Şifreyi Giriniz",
-  "enter_email":"Mail adresini giriniz",
-  "Enter_Date":"Tarih seçiniz",
-  "streetName": "Cadde",
-  "streetNumber": "No.",
-  "city": "Şehir",
-  "postalCode": "Posta Kodu",
-  "country": "Ülke",
-  "lastVisit": "Son Ziyaret: {}",
-  "search": "Ara",
-  "comment":"Not",
-  "shifttrain": "Misafir Tur",
-  "Date":"Tarih",
-  "Guesttripbeforestartofservice":"Mesai Öncesi Tur baslangıç",
-  "Guesttripafterstartofservice":"Mesai Öncesi Tur bitiş",
-  "Total":"Toplam",
-  "Servicestarttime": "Mesai başlangış saati",
-  "Startingplace":"Mesai Başlangıç yeri",
-  "Serviceendtime":"Mesai Bitiş saati",
-  "Endofservice" :"Mesai bitiş yeri",
-  "Break":"İzin",
-  "Departure": "Kalkış",
-  "Arrival":"Varış",
-  "Totalservicehour":"Toplam sürüş saati",
-  "Guesttripbeforeendofservice" : "Gece sürüş  başlangıcı",
-  "Guesttripafterendofservice" :"Gece sürüş  bitiş",
-  "Totalendofservicehour" : "Toplam gece sürüş saati",
-  "createNewTrip": "Yeni Sürüş Kaydet",
-  "createNewEmployee":"Yeni Kişi Ekle",
-  "TripCreated":"Tur Eklendi",
-  "Enteryouremail" : "Email Adresinizi Giriniz",
-  "EnteryourPassword": "Şifrenizi Giriniz",
-  "please_wait": "Lütfen Bekleyiniz.",
-  "enter_title": "Başlık Giriniz",
-  "required_consent": "Gerekli Onay",
-  "person_not_found" : "Personel Bulunamadı",
-  "message_not_resolvable" : "Mesaj Bulunamadı",
-  "trip_not_resolvable": "Tur Bulunamadı",
-  "An_unknown_error_has_occurred": "Bilinmeyen bir hata oluştu. Lütfen tekrar deneyiniz",
-  "titles.newEmployee" : "Yeni Kullanıcı",
-  "titles.newMessage": "Yeni Mesaj",
-  "tab.employee": "Kişiler",
-  "titles.newTrip": "Yeni Tur",
-  "employee_detail": "Personel Detay",
-  "employee": "Kullanıcı",
-  "message_detail": "Mesaj Detay",
-  "trips_detail": "Tur Detay",
-  "value_can't_be_empty":"Bu alan boş olmaz",
-  "export_excel": "Excel İndir",
-  "message":"Mesaj",
-  "from":"Gönderen",
-  "name":"isim",
-  "save":"Kaydet",
-  "delete": "Sil",
-  "Login":"Giriş",
-  "title":"Başlık",
-  "trips": "Turlar",
-  "Close": "Kapat",
-  "logout" :"Çıkış",
-  "titles": {
-    "settings": "Ayarlar",
-    "transactionDetail": "Tafsilat",
-    "language": "Dil",
-    "newVisitor": "Yeni Ziyaretçi",
-    "newVisit": "Yeni Ziyaret"
+  "app": {
+    "appName": "Kayahan Fahrten Tracker",
+    "poweredBy": "Powered by yapptek",
+    "headerSearch": "Suchen"
+  },
+  "general": {
+    "update": "Aktualisieren",
+    "delete": "Löschen",
+    "create": "Erstellen",
+    "logout": "Abmelden"
   },
   "languages": {
-    "en_GB": "Ingilizce",
-    "tr_TR": "Türkçe",
-    "de_DE": "Almanca"
-  },
-  "settings": {
-    "languages": {
-      "language": "Dil",
-      "select": "Dil seçiniz"
-    },
-    "darkMode": "Karanlık Mod"
+    "en_GB": "Englisch",
+    "tr_TR": "Türkisch",
+    "de_DE": "Deutsch"
   },
   "tab": {
-    "home": "Anasayfa",
-    "stats": "Istatistikler",
-    "about": "Hakkında",
-    "trips": "Turlar",
-    "employee": "Personel",
-    "tokens": "Tokenler",
-    "test": "Deneme",
-    "notifications": "Bildirimler"
+    "home": "Start",
+    "about": "Über",
+    "trips": "Fahrten",
+    "employee": "Personal",
+    "notifications": "Benachrichtigungen"
+  },
+  "login": {
+    "mail": "E-Mail",
+    "enterEmail": "Bitte E-Mail eingeben",
+    "password": "Passwort",
+    "enterPassword": "Bitte Passwort eingeben",
+    "signIn": "Anmelden"
+  },
+  "tripOverview": {
+    "pageTitle": "Fahrten Übersicht",
+    "export": "Fahrten exportieren"
+  },
+  "tripForm": {
+    "pageTitle": "Fahrt Detailsseite",
+    "formTitle": "Fahrteinzelheiten",
+    "engineDriverLabel": "Lokführer",
+    "engineDriverHint": "Geben Sie Ihren Namen ein",
+    "schichtzugLabel": "Schichtzug",
+    "schichtzugHint": "Geben Sie die Bezeichnung des Schichtzugs ein",
+    "dateLabel": "Datum",
+    "dateHint": "Geben Sie den Datum der Fahrt ein",
+    "gastfahrtVorDienstbeginnVon": "Gastfahrt vor Dienstbeginn von",
+    "gastfahrtVorDienstbeginnBis": "Gastfahrt vo Dienstbeginn bis",
+    "dienstbeginnZeit": "Dienstbeginn Zeit",
+    "dienstbeginnOrt": "Dienstbeginn Ort",
+    "pauseVon": "Pause von",
+    "pauseBis": "Pause bis",
+    "dienstendeZeit": "Dienstende Zeit",
+    "dienstendeOrt": "Dienstende Ort",
+    "abfahrt": "Abfahrt",
+    "ankunft": "Ankunft",
+    "gastfahrtNachDienstendeVon": "Gastfahrt nach Dienstende von",
+    "gastfahrtNachDienstendeBis": "Gastfahrt nach Dienstende bis",
+    "bemerkungen": "Bemerkungen"
+  },
+  "newTrip": {
+    "pageTitle": "Fahrt festhalten"
+  },
+  "employeeOverview": {
+    "pageTitle": "Mitarbeiter Übersicht"
+  },
+  "employeeForm": {
+    "pageTitle": "Mitarbeiter Details",
+    "firstnameLabel": "Vorname",
+    "firstnameHint": "Gebe deinen Vornamen ein",
+    "lastnameLabel": "Familienname",
+    "lastnameHint": "Gebe deinen Familiennamen ein",
+    "mailLabel": "E-Mail",
+    "mailHint": "Gebe deine E-Mail Adresse ein",
+    "passwordLabel": "Passwort",
+    "passwordHint": "Gebe ein Passwort ein"
+  },
+  "messagesOverview": {
+    "pageTitle": "Meldungen"
+  },
+  "messageForm": {
+    "pageTitle": "Meldungs-Details",
+    "fromLabel": "Von",
+    "fromHint": "Autor der Meldung",
+    "subjectLabel": "Betreff",
+    "subjectHint": "Bitte Betreff eingeben",
+    "messageLabel": "Nachricht",
+    "messageHint": "Bitte deine Nachricht hier eingeben",
+    "claimConsent": "Lesebestätigung einholen" 
+  },
+  "newMessage": {
+    "pageTitle": "Neue Meldung"
+  },
+  "settings": {
+    "pageTitle": "Einstellungen",
+    "admin": "Admin",
+    "employee": "Mitarbeiter"
+  },
+  "fail": {
+    "empty": "Bitte geben Sie einen Wert ein",
+    "invalid": "Ungültige Eingabe",
+    "missingProfile": "Ungültiger Zustand: Fehlende Profilinformationen",
+    "missingTrip": "Ungültiger Zustand: Fehlende Fahrtinformationen",
+    "profileNotFound": "Das Profil konnte nicht gefunden werden",
+    "unknown": "Unbekannt"
+  },
+  "alert": {
+    "confirm": "Löschen",
+    "cancel": "Abbrechen"
+  },
+  "deleteAlert": {
+    "title": "Bitte beachten",
+    "content": "Möchten Sie wirklich diese Daten löschen ?"
   }
 }

@@ -1,94 +1,113 @@
 {
-  "appName": "Kayahan GmbH",
-  "firstName": "First Name",
-  "lastName": "Last Name",
-  "addVisitor": "Add Visitor",
-  "phoneNumber": "Phone number",
-  "temperature": "Temperature",
-  "email": "Mail Address",
-  "streetName": "Street Name",
-  "streetNumber": "Street Number",
-  "city": "City",
-  "postalCode": "Postal Code",
-  "country": "Country",
-  "lastVisit": "Last Visit: {}",
-  "search": "Search",
-  "comment":"Kommentar",
-  "shifttrain": "shift train",
-  "Date":"Date",
-  "Guesttripbeforestartofservice":"Guest trip before start of service",
-  "Guesttripafterstartofservice":"Guest trip after start of service",
-  "Total":"total",
-  "Servicestarttime": "service start time",
-  "Startingplace":"starting place",
-  "Serviceendtime":"service end time",
-  "Endofservice" :"end of service",
-  "Break":"Break",
-  "Departure": "Departure",
-  "Arrival":"arrival",
-  "Totalservicehour":"Total service hour",
-  "Guesttripbeforeendofservice" : "Guest trip before end of service",
-  "Guesttripafterendofservice" :"Guest trip after end of service",
-  "Totalendofservicehour" : "total end of service hour",
-  "createNewTrip": "create New Trip",
-  "createNewEmployee":"create New Employee",
-  "Enteryouremail" : "Enter Your Email",
-  "EnteryourPassword": "Enter Your Password",
-  "please_wait": "Please Wait",
-  "TripCreated":"Trip Created",
-  "enter_title": "Enter Title",
-   "title":"Title",
-   "message":"Messsage",
-   "required_consent": "Required Consent",
-   "person_not_found" : "Person Not Found",
-   "message_not_resolvable" : "Message not resolvable",
-   "trip_not_resolvable": "Trip not resolvable",
-   "An_unknown_error_has_occurred": "An unknown error has occurred",
-   "tab.employee": "Employee",
-   "titles.newEmployee" : "New Employee",
-   "titles.newMessage": "New Message",
-   "titles.newTrip": "New Trip",
-   "employee_detail": "Employee Detail",
-   "employee": "Employee",
-   "message_detail" :"Message Detail",
-   "trips_detail": "Trips Detail",
-   "trips": "Trips",
-   "value_can't_be_empty":"value can't be empty",
-   "export_excel": "Export Excel",
-   "Close": "Close",
-   "from":"From",
-  "name":"name",
-  "save":"save",
-  "delete": "delete",
-  "Login":"Login",
-  "logout" :"logout",
-  "titles": {
-    "settings": "Settings",
-    "transactionDetail": "Details",
-    "language": "Language",
-    "newVisitor": "New Visitor",
-    "newVisit": "New Visit"
+  "app": {
+    "appName": "Kayahan Fahrten Tracker",
+    "poweredBy": "Powered by yapptek",
+    "headerSearch": "Suchen"
+  },
+  "general": {
+    "update": "Aktualisieren",
+    "delete": "Löschen",
+    "create": "Erstellen",
+    "logout": "Abmelden"
   },
   "languages": {
-    "en_GB": "English",
-    "tr_TR": "Turkish",
-    "de_DE": "German"
-  },
-  "settings": {
-    "languages": {
-      "language": "Language",
-      "select": "Select language"
-    },
-    "darkMode": "Dark Mode"
+    "en_GB": "Englisch",
+    "tr_TR": "Türkisch",
+    "de_DE": "Deutsch"
   },
   "tab": {
-    "home": "Home",
-    "stats": "Statistics",
-    "about": "About",
-    "trips": "Trips",
-    "employee": "Employee",
-    "tokens": "Tokens",
-    "test": "Test",
-    "notifications": "Notifications"
+    "home": "Start",
+    "about": "Über",
+    "trips": "Fahrten",
+    "employee": "Personal",
+    "notifications": "Benachrichtigungen"
+  },
+  "login": {
+    "mail": "E-Mail",
+    "enterEmail": "Bitte E-Mail eingeben",
+    "password": "Passwort",
+    "enterPassword": "Bitte Passwort eingeben",
+    "signIn": "Anmelden"
+  },
+  "tripOverview": {
+    "pageTitle": "Fahrten Übersicht",
+    "export": "Fahrten exportieren"
+  },
+  "tripForm": {
+    "pageTitle": "Fahrt Detailsseite",
+    "formTitle": "Fahrteinzelheiten",
+    "engineDriverLabel": "Lokführer",
+    "engineDriverHint": "Geben Sie Ihren Namen ein",
+    "schichtzugLabel": "Schichtzug",
+    "schichtzugHint": "Geben Sie die Bezeichnung des Schichtzugs ein",
+    "dateLabel": "Datum",
+    "dateHint": "Geben Sie den Datum der Fahrt ein",
+    "gastfahrtVorDienstbeginnVon": "Gastfahrt vor Dienstbeginn von",
+    "gastfahrtVorDienstbeginnBis": "Gastfahrt vo Dienstbeginn bis",
+    "dienstbeginnZeit": "Dienstbeginn Zeit",
+    "dienstbeginnOrt": "Dienstbeginn Ort",
+    "pauseVon": "Pause von",
+    "pauseBis": "Pause bis",
+    "dienstendeZeit": "Dienstende Zeit",
+    "dienstendeOrt": "Dienstende Ort",
+    "abfahrt": "Abfahrt",
+    "ankunft": "Ankunft",
+    "gastfahrtNachDienstendeVon": "Gastfahrt nach Dienstende von",
+    "gastfahrtNachDienstendeBis": "Gastfahrt nach Dienstende bis",
+    "bemerkungen": "Bemerkungen"
+  },
+  "newTrip": {
+    "pageTitle": "Fahrt festhalten"
+  },
+  "employeeOverview": {
+    "pageTitle": "Mitarbeiter Übersicht"
+  },
+  "employeeForm": {
+    "pageTitle": "Mitarbeiter Details",
+    "firstnameLabel": "Vorname",
+    "firstnameHint": "Gebe deinen Vornamen ein",
+    "lastnameLabel": "Familienname",
+    "lastnameHint": "Gebe deinen Familiennamen ein",
+    "mailLabel": "E-Mail",
+    "mailHint": "Gebe deine E-Mail Adresse ein",
+    "passwordLabel": "Passwort",
+    "passwordHint": "Gebe ein Passwort ein"
+  },
+  "messagesOverview": {
+    "pageTitle": "Meldungen"
+  },
+  "messageForm": {
+    "pageTitle": "Meldungs-Details",
+    "fromLabel": "Von",
+    "fromHint": "Autor der Meldung",
+    "subjectLabel": "Betreff",
+    "subjectHint": "Bitte Betreff eingeben",
+    "messageLabel": "Nachricht",
+    "messageHint": "Bitte deine Nachricht hier eingeben",
+    "claimConsent": "Lesebestätigung einholen" 
+  },
+  "newMessage": {
+    "pageTitle": "Neue Meldung"
+  },
+  "settings": {
+    "pageTitle": "Einstellungen",
+    "admin": "Admin",
+    "employee": "Mitarbeiter"
+  },
+  "fail": {
+    "empty": "Bitte geben Sie einen Wert ein",
+    "invalid": "Ungültige Eingabe",
+    "missingProfile": "Ungültiger Zustand: Fehlende Profilinformationen",
+    "missingTrip": "Ungültiger Zustand: Fehlende Fahrtinformationen",
+    "profileNotFound": "Das Profil konnte nicht gefunden werden",
+    "unknown": "Unbekannt"
+  },
+  "alert": {
+    "confirm": "Löschen",
+    "cancel": "Abbrechen"
+  },
+  "deleteAlert": {
+    "title": "Bitte beachten",
+    "content": "Möchten Sie wirklich diese Daten löschen ?"
   }
 }
