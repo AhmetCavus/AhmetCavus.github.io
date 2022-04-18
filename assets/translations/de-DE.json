@@ -8,7 +8,8 @@
     "update": "Aktualisieren",
     "delete": "Löschen",
     "create": "Erstellen",
-    "logout": "Abmelden"
+    "logout": "Abmelden",
+    "close": "Schließen"
   },
   "languages": {
     "en_GB": "Englisch",
@@ -31,7 +32,8 @@
   },
   "tripOverview": {
     "pageTitle": "Fahrten Übersicht",
-    "export": "Fahrten exportieren"
+    "export": "Fahrten exportieren",
+    "dienststunden": "Dienststunden"
   },
   "tripForm": {
     "pageTitle": "Fahrt Detailsseite",
@@ -43,18 +45,28 @@
     "dateLabel": "Datum",
     "dateHint": "Geben Sie den Datum der Fahrt ein",
     "gastfahrtVorDienstbeginnVon": "Gastfahrt vor Dienstbeginn von",
-    "gastfahrtVorDienstbeginnBis": "Gastfahrt vo Dienstbeginn bis",
+    "gastfahrtVorDienstbeginnBis": "Gastfahrt vor Dienstbeginn bis",
     "dienstbeginnZeit": "Dienstbeginn Zeit",
     "dienstbeginnOrt": "Dienstbeginn Ort",
     "pauseVon": "Pause von",
     "pauseBis": "Pause bis",
+    "wartezeit1Von": "Wartezeit 1 von",
+    "wartezeit1Bis": "Wartezeit 1 bis",
+    "wartezeit2Von": "Wartezeit 2 von",
+    "wartezeit2Bis": "Wartezeit 2 bis",
     "dienstendeZeit": "Dienstende Zeit",
     "dienstendeOrt": "Dienstende Ort",
     "abfahrt": "Abfahrt",
     "ankunft": "Ankunft",
     "gastfahrtNachDienstendeVon": "Gastfahrt nach Dienstende von",
     "gastfahrtNachDienstendeBis": "Gastfahrt nach Dienstende bis",
-    "bemerkungen": "Bemerkungen"
+    "bemerkungen": "Bemerkungen",
+    "showWaitingTimes": "Wartezeiten hinzufügen ?"
+  },
+  "tripsFilter": {
+    "pageTitle": "Fahrten Filter",
+    "selectEmployee": "Mitarbeiter auswählen",
+    "allEmployee": "Alle Mitarbeiter"
   },
   "newTrip": {
     "pageTitle": "Fahrt festhalten"
