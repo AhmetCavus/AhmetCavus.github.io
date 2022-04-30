@@ -42,6 +42,8 @@
     "engineDriverHint": "Geben Sie Ihren Namen ein",
     "schichtzugLabel": "Schichtzug",
     "schichtzugHint": "Geben Sie die Bezeichnung des Schichtzugs ein",
+    "zugnummerLabel": "Zugnummer",
+    "zugnummerHint": "Geben Sie die Zugnummer ein",
     "dateLabel": "Datum",
     "dateHint": "Geben Sie den Datum der Fahrt ein",
     "gastfahrtVorDienstbeginnVon": "Gastfahrt vor Dienstbeginn von",
@@ -96,7 +98,8 @@
     "subjectHint": "Bitte Betreff eingeben",
     "messageLabel": "Nachricht",
     "messageHint": "Bitte deine Nachricht hier eingeben",
-    "claimConsent": "Lesebestätigung einholen" 
+    "claimConsent": "Lesebestätigung einholen",
+    "applyConsent": "Lesebestätigung erteilen"
   },
   "newMessage": {
     "pageTitle": "Neue Meldung"
